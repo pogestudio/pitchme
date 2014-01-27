@@ -1,0 +1,236 @@
+.landingHeader {
+	position: relative;
+	height: 480px;
+	width: 100%;
+	padding: 20px;
+	background: url('../img/background.jpg');
+	background-size: cover;
+	box-shadow: 0 10px 15px #ccc;
+}
+
+.landingHeader .container {
+	position: relative;
+}
+
+.landingHeader .content {
+	width: 700px;
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+.landingHeader .content h1, .landingHeader p{
+	color: #fff;
+	text-shadow: 0 0 5px #333;
+}
+
+.landingHeader .content h1 {
+	font-size: 4.5em;
+}
+
+.landingHeader .content p{
+	font-size: 1.5em;
+}
+
+.landingHeader button{
+	position: absolute;
+	top: 200px;
+	right: 150px;
+	font-size: 3em;
+}
+
+.header {
+	position: relative;
+	height: 90px;
+	width: 100%;
+	padding: 20px;
+	background: url('../img/background.jpg');
+	background-size: cover;
+	box-shadow: 0 10px 15px #ccc;
+}
+
+.midSection {
+	width: 900px;
+	margin: auto;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.midSection h1, .midSection p {
+
+}
+
+.midSection .icon {
+	height: 100px;
+}
+
+.content {
+	min-height: 400px;
+}
+
+.signupForm, .loginForm {
+	width: 500px;
+	padding: 10px 30px 30px 30px;
+	margin: auto;
+	overflow: hidden;
+	border: 10px solid #555;
+	background: #FBFBFB;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 0px 10px #666;
+	-moz-box-shadow: 0 0px 10px #666;
+	box-shadow: 0 0px 10px #666;
+}
+
+.signupForm h2,.signupForm label, .loginForm h2, .loginForm label {
+	color: #666;
+}
+
+.signupButton {
+	float: right;
+}
+
+.pictureBorder {
+	float: left;
+	background: #FFF;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-right: 20px;
+	padding: 5px;
+	-webkit-box-shadow: 0 10px 3px -6px #666;
+	-moz-box-shadow: 0 10px 3px -6px #666;
+	box-shadow: 0 10px 3px -6px #666;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#808080')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#808080');
+}
+
+.narrowContainer {
+	width: 900px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom:50px;
+}
+
+.winnersListHeader {
+	width: 900px;
+	margin: auto;
+}
+
+.winnerList {
+	margin: auto;
+}
+
+.winnerList .row {
+	text-align: center;
+}
+
+.winnerList iframe {
+	display: block;
+	margin-left: 100px;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   	-webkit-box-shadow: inset 0 0 10px #000000;
+   	box-shadow:         inset 0 0 10px #000000;
+}
+
+.winnerList p {
+	font-size: 1.5em;
+}
+
+.pitchContainer {
+	width: 800px;
+	background: #EEE;
+	margin: auto;
+	margin-top: 50px;
+	-moz-box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 10px #000;
+	border-radius: 10px;
+	
+}
+
+.pitchContainer .pheader {
+	overflow: auto;
+	width: 100%;
+	background: #555;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+.pitchContainer .pheader h3 {
+	color: #EEE;
+	padding: 10px 20px;
+
+}
+
+.pitchContainer .pbody {
+	padding: 30px 10px;
+}
+
+.morePitches {
+	width: 300px;
+	margin: auto;
+	-moz-box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 10px #000;
+	background: #EEE;
+	text-align: center;
+	position: relative;
+	padding: 10px 30px;
+	overflow: hidden;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.morePitches span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.morePitches a {
+	text-decoration: none;
+	color: #111;
+}
+
+.morePitches span:hover > .morePitches a {
+	text-decoration: underline;
+}
+
+label {
+	width: 150px;
+	margin-top: 10px;
+}
+
+.lowerSection {
+	text-align: center;
+}
+
+.lowerSection button {
+	font-size: 1.5em;
+	margin: 10px;
+}
+
+.btn-big {
+	width:133px;
+	height:100px;
+}
+
+.input-big {
+	width:400px;
+	height:100px;
+}
+
+.footer {
+	padding: 20px;
+	margin-top: 20px;
+	background: #494949;
+}
+
+.footer .copyright {
+	color: #fff;
+	text-align: center;
+	margin-top: 50px;
+}

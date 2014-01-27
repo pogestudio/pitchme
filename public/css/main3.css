@@ -1,0 +1,104 @@
+body {
+	background: white;
+}
+
+.navbar {
+	margin-bottom: 30px;
+}
+
+.feedbackTable {
+	background: #135571;
+	width: 700px;
+
+}
+
+.jumbotron {
+	background: #135571;
+	width: 100%;
+	height: 400px;
+
+}
+
+.jumbotron h1 {
+	color: white;
+}
+
+.jumbotron p {
+	font-size: 0.9em;
+	margin-top: 30px;
+	color: white;
+}
+
+.vcLogo {
+	margin: 20px;
+}
+
+#signup label {
+	width: 100px;
+	color: black;
+}
+
+.reminder {
+	height: 400px;
+}
+
+.faq p{
+	color: black;
+}
+
+.vcFrame {
+	margin: auto;
+	width: 800px;
+	clear: both;
+}
+
+.vcPic {
+	max-height: 700px;
+	width: 300px;
+}
+
+.vcInfo {
+	float: left;
+	width: 400px;
+}
+
+.vcInfo h1, h2, h3 {
+	line-height: 1.2;
+	margin: 0;
+}
+
+.pictureBorder {
+	float: left;
+	background: #FFF;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-right: 20px;
+	padding: 5px;
+	-webkit-box-shadow: 0 10px 3px -6px #666;
+	-moz-box-shadow: 0 10px 3px -6px #666;
+	box-shadow: 0 10px 3px -6px #666;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#808080')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#808080');
+}
+
+.footer {
+	width: 100%;
+	background: #333;
+	margin-top: 20px;
+	padding: 50px;
+}
+
+.footer p {
+	color: #CCC;
+	text-align: center:
+	margin: 0 auto;
+}
+
+.footer h4 {
+	color: white;
+}
+
+.copyright {
+	text-align: center;
+	padding: 30px;
+}
